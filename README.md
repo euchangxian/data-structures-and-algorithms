@@ -11,7 +11,7 @@ This repository contains implementation of some of the fundamental data structur
 - Disjoint Set
     * Quick Find
     * Weighted Union with path compression
-- [Heap](src/dataStructures/heap/)
+- [Heap](src/main/java/dataStructures/heap/)
     * Max heap implementation
 - Linked List
 - LRU Cache
@@ -25,18 +25,18 @@ This repository contains implementation of some of the fundamental data structur
 
 
 ## Algorithms
-- [Counting Sort](src/algorithms/sorting/countingSort/)
-- [Cyclic Sort](src/algorithms/sorting/cyclicSort/)
-    * [Special case](src/algorithms/sorting/cyclicSort/simple) of O(n) time complexity
-    * [Generalized case](src/algorithms/sorting/cyclicSort/generalised) of O(n^2) time complexity
-- [Knuth-Morris-Pratt](src/algorithms/patternFinding/) aka KMP algorithm
-- [Matrix Operations](others/matrix_operations/)
-- [Bubble Sort](src/algorithms/sorting/bubbleSort)
-- [Insertion Sort](src/algorithms/sorting/insertionSort)
-- [Selection Sort](src/algorithms/sorting/selectionSort)
+- [Counting Sort](src/main/java/algorithms/sorting/countingSort/)
+- [Cyclic Sort](src/main/java/algorithms/sorting/cyclicSort/)
+    * [Special case](src/main/java/algorithms/sorting/cyclicSort/simple) of O(n) time complexity
+    * [Generalized case](src/main/java/algorithms/sorting/cyclicSort/generalised) of O(n^2) time complexity
+- [Knuth-Morris-Pratt](src/main/java/algorithms/patternFinding/) aka KMP algorithm
+- [Matrix Operations](src/main/resources/others/matrix_operations/)
+- [Bubble Sort](src/main/java/algorithms/sorting/bubbleSort)
+- [Insertion Sort](src/main/java/algorithms/sorting/insertionSort)
+- [Selection Sort](src/main/java/algorithms/sorting/selectionSort)
 - Merge Sort
-    * [Recursive](src/algorithms/sorting/mergeSort/recursive)
-    * [Bottom-up iterative](src/algorithms/sorting/mergeSort/iterative)
+    * [Recursive](src/main/java/algorithms/sorting/mergeSort/recursive)
+    * [Bottom-up iterative](src/main/java/algorithms/sorting/mergeSort/iterative)
 - Quick Sort
     * 3-way Partitioning
 - Radix Sort
@@ -50,10 +50,10 @@ This repository contains implementation of some of the fundamental data structur
 2. Binary Search
     * Peak Finding
 3. Sorting
-    * [Bubble](src/algorithms/sorting/bubbleSort)
-    * [Insertion](src/algorithms/sorting/insertionSort)
-    * [Selection](src/algorithms/sorting/selectionSort)
-    * [Merge](src/algorithms/sorting/mergeSort)
+    * [Bubble](src/main/java/algorithms/sorting/bubbleSort)
+    * [Insertion](src/main/java/algorithms/sorting/insertionSort)
+    * [Selection](src/main/java/algorithms/sorting/selectionSort)
+    * [Merge](src/main/java/algorithms/sorting/mergeSort)
     * Quick
 4. Trees
     * Binary search tree
