@@ -5,6 +5,8 @@
       <module name="data-structures-and-algorithms.app" target="11" />
       <module name="data-structures-and-algorithms.app.main" target="11" />
       <module name="data-structures-and-algorithms.app.test" target="11" />
+      <module name="data-structures-and-algorithms.main" target="11" />
+      <module name="data-structures-and-algorithms.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
