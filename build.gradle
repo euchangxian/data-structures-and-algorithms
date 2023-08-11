@@ -27,3 +27,8 @@ java {
         languageVersion = JavaLanguageVersion.of(11)
     }
 }
+
+checkstyle {
+    def archive = configurations.checkstyle.resolve().find { it.name.startsWith("checkstyle") }
+    config = resources.text.fromArchiveEntry(archive, "google_checks.xml")
+}
